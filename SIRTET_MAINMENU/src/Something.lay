@@ -1,0 +1,13 @@
+LAYOUT(MainMenu, 844, 428)
+	ITEM(Upp::Button, btnPlay, SetLabel(t_("\vPLAY")).SetFont(Upp::MonospaceZ(25).Bold().Italic()).SetFrame(Upp::BlackFrame()).LeftPosZ(284, 276).TopPosZ(212, 36))
+	ITEM(Upp::Button, btnToggleMusic, SetLabel(t_("\vTURN OFF MUSIC")).SetFont(Upp::MonospaceZ(25).Bold().Italic()).SetFrame(Upp::BlackFrame()).LeftPosZ(284, 276).TopPosZ(308, 36))
+	ITEM(Upp::Button, btnScore, SetLabel(t_("SCOREBOARD")).SetFont(Upp::MonospaceZ(25).Bold().Italic()).SetFrame(Upp::BlackFrame()).LeftPosZ(284, 276).TopPosZ(260, 36))
+	ITEM(Upp::Button, btnExit, SetLabel(t_("EXIT")).SetFont(Upp::MonospaceZ(25).Bold().Italic()).SetFrame(Upp::BlackFrame()).LeftPosZ(284, 276).TopPosZ(356, 36))
+	ITEM(Upp::Label, dv___4, SetLabel(t_("Sirtet")).SetAlign(Upp::ALIGN_CENTER).SetFont(Upp::MonospaceZ(80).Bold().Italic()).SetInk(Upp::Color(93, 78, 171)).LeftPosZ(152, 512).TopPosZ(28, 164))
+END_LAYOUT
+
+LAYOUT(Score, 532, 264)
+	ITEM(Upp::Label, lblHighscore, SetLabel(t_("HIGH SCORE")).SetFont(Upp::SerifZ(40).Bold().Italic()).LeftPosZ(28, 360).TopPosZ(60, 84))
+	ITEM(Upp::Button, btnOK, SetLabel(t_("OK")).SetFrame(Upp::BottomSeparatorFrame()).LeftPosZ(256, 248).TopPosZ(180, 55))
+END_LAYOUT
+
